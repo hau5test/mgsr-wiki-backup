@@ -1,0 +1,196 @@
+<html>
+
+<body>
+    <article id="dokuwiki__content" class="col-sm-12 col-md-12 " itemscope="" itemtype="http://schema.org/Article"
+        itemref="dw__license">
+        <!-- content -->
+        <h1 class="sectionedit1 page-header pb-3 mb-4 mt-5" id="real-time_attack_timing_rules">Real-Time Attack Timing
+            Rules</h1>
+        <div class="level1">
+
+            <p>
+                !THIS IS A WORK IN PROGRESS (WIP) SOME INFORMATION MIGHT BE MISSING!
+            </p>
+
+        </div>
+
+        <h2 class="sectionedit2 page-header pb-3 mb-4 mt-5" id="when_can_the_in_game_time_be_used">When Can the In Game
+            Time Be Used</h2>
+        <div class="level2">
+
+            <p>
+                Sometimes a run might use the in game timer, IGT for short, as their final time. Runs that don't use
+                items that can mess with the IGT, such as the Phantom Cigar, are eligible to use it as their final time.
+                Here's a list of items and actions that break the IGT:
+            </p>
+            <ul class=" fix-media-list-overlap">
+                <li class="level1">
+                    <div class="li"> Phantom Cigar</div>
+                </li>
+                <li class="level1">
+                    <div class="li"> Acceleramin</div>
+                </li>
+                <li class="level1">
+                    <div class="li"> Reflex</div>
+                </li>
+                <li class="level1">
+                    <div class="li"> Cutscenes</div>
+                </li>
+                <li class="level1">
+                    <div class="li"> Fast-travel</div>
+                </li>
+                <li class="level1">
+                    <div class="li"> Getting a “Serious Injury”</div>
+                </li>
+            </ul>
+
+            <p>
+                When you don't use either of these items nor perform any of the listed actions, using the IGT is
+                perfectly viable. Note that when the Phantom Cigar is used after a mission is over the IGT is not
+                compromised.
+            </p>
+
+        </div>
+
+        <h2 class="sectionedit3 page-header pb-3 mb-4 mt-5" id="timing_rules">Timing Rules</h2>
+        <div class="level2">
+
+            <p>
+                Now that we know what breaks the IGT we can move on to RTA'ing. There are some universal timing rules
+                that we've listed, they are as follows:
+            </p>
+            <div class="table-responsive">
+                <table class="inline table table-striped table-condensed">
+                    <thead>
+                        <tr class="row0">
+                            <th class="col0"> Type </th>
+                            <th class="col1"> Description </th>
+                            <th class="col2"> Timing </th>
+                            <th class="col3"> Additional Cues </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row1">
+                            <th class="col0"> Transitions </th>
+                            <td class="col1"> Transitions can be anything from the fade-in to a cutscene (provided the
+                                mission starts with one), the fade-in to the chopper scene, fade-in from fast-travelling
+                                and/or fade-in to gameplay </td>
+                            <td class="col2"> Last full-black frame / Fade-in starts </td>
+                            <td class="col3"> The best way to visualize it (in my opinion) is to increase the brightness
+                                of the footage so you can more easily see the fade-in starting </td>
+                        </tr>
+                        <tr class="row2">
+                            <th class="col0"> Fast-travel </th>
+                            <td class="col1"> When using the fast-travel system, the period you spent fast-traveling is
+                                considered loading time. The “loading time” starts as soon as the iDroid screen closes
+                                after selecting the fast-travel point </td>
+                            <td class="col2"> Frame the iDroid screen closes </td>
+                            <td class="col3"></td>
+                        </tr>
+                        <tr class="row3">
+                            <th class="col0"> Fast-travel (end) </th>
+                            <td class="col1"> After you've selected the fast-travel point and endured the cutscene a
+                                fade-in happens. When the fade-in starts we consider the “loading time” finished </td>
+                            <td class="col2"> Last full-black frame / Fade-in starts </td>
+                            <td class="col3"> The best way to visualize it (in my opinion) is to increase the brightness
+                                of the footage so you can more easily see the fade-in starting </td>
+                        </tr>
+                        <tr class="row4">
+                            <th class="col0"> Cutscene </th>
+                            <td class="col1 leftalign"> When a cutscene starts we consider it “loading time”. When a
+                                mission ends with a cutscene, the frame it starts is when the mission is considered over
+                            </td>
+                            <td class="col2"> First frame of the cutscene / HUD icons disappear </td>
+                            <td class="col3"> Some times it can be tricky to recognize when a cutscene starts, such as
+                                the cutscene in “Where do the Bees Sleep?”. In these casses you can watch for subtle
+                                light changes or when HUD icons disappear </td>
+                        </tr>
+                        <tr class="row5">
+                            <th class="col0"> Cutscene (end) </th>
+                            <td class="col1"> After skipping a cutscene there will be a fade-in </td>
+                            <td class="col2"> Last full-black frame / Fade-in starts </td>
+                            <td class="col3"> The best way to visualize it (in my opinion) is to increase the brightness
+                                of the footage so you can more easily see the fade-in starting </td>
+                        </tr>
+                        <tr class="row6">
+                            <th class="col0"> Chopper Exit </th>
+                            <td class="col1"> When exiting a mission one of your options is to leave via a chopper ride.
+                                In the case you do so the end of the run will be when Snake closes the chopper door
+                            </td>
+                            <td class="col2"> The frame the chopper door closes </td>
+                            <td class="col3"></td>
+                        </tr>
+                        <tr class="row7">
+                            <th class="col0"> Exit Hot Zone </th>
+                            <td class="col1"> After exiting a hot zone the camera will zoom in on Snake's face </td>
+                            <td class="col2"> Frame the camera starts to zoom in </td>
+                            <td class="col3"> Although HUD icons disappear the same frame the mission ends players that
+                                might have no items equipped or no HUD elements visible will not be able to use them as
+                                a cue </td>
+                        </tr>
+                        <tr class="row8">
+                            <th class="col0"> Exit Hot Zone (iDroid) </th>
+                            <td class="col1"> After exiting a hot zone and you're using the iDroid when the mission ends
+                                Snake will automatically close the iDroid </td>
+                            <td class="col2"> Last frame the iDroid screen is visible </td>
+                            <td class="col3"></td>
+                        </tr>
+                        <tr class="row9">
+                            <th class="col0"> Exit Hot Zone (Phantom Cigar) </th>
+                            <td class="col1"> After exiting a hot zone while using the Phantom Cigar the camera doesn't
+                                zoom in on Snake's face, instead it zooms out </td>
+                            <td class="col2"> Frame the camera starts to zoom out </td>
+                            <td class="col3"> In case you use HUD icons they disappear the same frame the mission ends,
+                                if you don't then you'll have to go by when the camera zooms out </td>
+                        </tr>
+                        <tr class="row10">
+                            <th class="col0"> Exit Hot Zone (Fulton) </th>
+                            <td class="col1"> When exiting a hot zone via fultoning a materials container an icon will
+                                appear, when that icon disappears the mission is considered over </td>
+                            <td class="col2"> Frame the fulton icon disappears </td>
+                            <td class="col3"> In case you're connected to the servers a small sinc-icon will appear on
+                                the top right corner of the screen, you can use it to tell when the mission is over.
+                                Another method is shaking the camera. Once the mission is over the camera will be locked
+                                in place </td>
+                        </tr>
+                        <tr class="row11">
+                            <th class="col0"> Exit Hot Zone (Truck Fulton Trick) </th>
+                            <td class="col1"> The truck fulton trick is a unconventional way of exiting a hot zone.
+                                Standing on the bed of a truck while on D-Horse or D-Walker, call another vehicle drop.
+                                That will cause the truck to be fultonned out. Provided you're standing in the correct
+                                spot and facing the right direction, the truck will propel you skyward with it, exiting
+                                the hot zone (remember to use the regular fulton) </td>
+                            <td class="col2"> HUD icons disappear </td>
+                            <td class="col3"> The best way to tell when you're out of the hot zone is to pay attention
+                                to your HUD icons. The icon that tracks where the other vehicle will be dropped and the
+                                weapons and items icons. Other wise you can use the online sinc-icon as a reference
+                            </td>
+                        </tr>
+                        <tr class="row12">
+                            <th class="col0"> Pausing </th>
+                            <td class="col1"> While it's not recommend to do so, pausing during a run is considered
+                                “load time”. It is so because in certain ILs is beneficial to checkpoint to speedup
+                                certain sections (ex.: After extracting Code Talker Snake is forced to walk,
+                                checkpointing will allow Snake to sprint). </td>
+                            <td class="col2"> Pause menu is visible / Fade-in starts </td>
+                            <td class="col3"> Clarification: The first frame the pause menu is visible </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+
+            <p>
+                <a href="https://www.metalgearspeedrunners.com/wiki/doku.php?id=metal_gear_solid_v:the_phantom_pain"
+                    class="wikilink1" title="metal_gear_solid_v:the_phantom_pain"
+                    data-wiki-id="metal_gear_solid_v:the_phantom_pain"> Return to Metal Gear Solid V: The Phantom
+                    Pain</a>
+            </p>
+
+        </div>
+
+        <!-- content end -->
+    </article>
+</body>
+
+</html>
