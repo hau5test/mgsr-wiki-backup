@@ -1,0 +1,2 @@
+### The MGSR Wiki Backup
+This Github is a copy of the contents from the Metal Gear Speedrunners Wiki based on archive.org back ups. Most pages have been retrieved but especially the pages surrounding Metal Gear Solid Delta: Snake Eater are lost to time.  These pages can be used to build up a new wiki or to serve as an archive of some sorts. 
